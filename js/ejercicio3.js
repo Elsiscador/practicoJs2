@@ -1,15 +1,13 @@
-let cadenas = [];
+let cadenas = []
 
 while (cadenas) {
-  let cadena = prompt("Ingresa una frase  y pulsa cancelar para salir");
-  
+  let cadena = prompt("Introduce una cadena de texto (pulsa 'cancelar' para salir):");
+
   if (cadena === null) {
     break;
   }
-  
-  cadenas.push(cadena);
+
+  cadenas += cadena + "---";
 }
 
-let resultado = cadenas.join("---");
-
-confirm("Las cadenas concatenadas son: " + resultado);
+confirm ("Cadenas concatenadas: " + cadenas);
