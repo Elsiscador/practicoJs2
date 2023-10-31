@@ -10,4 +10,4 @@ while (cadenas) {
   cadenas += cadena + "---";
 }
 
-confirm ("Cadenas concatenadas: " + cadenas);
+confirm  ("Cadenas concatenadas: " + cadenas);
